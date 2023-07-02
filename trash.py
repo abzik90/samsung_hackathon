@@ -1,10 +1,4 @@
-from pymouse import PyMouse
+import tensorflow as tf
 
-# Create a PyMouse object
-mouse = PyMouse()
-
-# Move the mouse to coordinates (x, y)
-mouse.move(100,100)
-
-# Click the left mouse button
-# mouse.click(x, y)
+# Check if TensorFlow is using GPU
+print(tf.config.list_physical_devices('GPU'))
