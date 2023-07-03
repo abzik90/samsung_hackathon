@@ -5,8 +5,8 @@
 
 MPU6050 mpu;
 // Replace with your network credentials
-const char* ssid = "AAstana2.4";
-const char* password = "Astana382@";
+const char* ssid = "your-ssid";
+const char* password = "your-password";
 WiFiClient client;
 
 
